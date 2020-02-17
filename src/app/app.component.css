@@ -1,0 +1,52 @@
+div.header {
+    background: #F5F5F5;
+    font-size: 12px;
+}
+div.header > div:nth-child(1),  div.header > div:nth-child(2),
+div.header > div:nth-child(3){
+   color: #063047;
+    height: 34px;
+    line-height: 33px;
+    letter-spacing: 0.8px;
+}
+div.header > div:nth-child(1){
+    background: #063047;
+    color: #fff;
+}
+div.header > div:nth-child(4){
+    width: 40%;
+}
+div.header > div:nth-child(4) > input{
+    height: 33px;
+    font-size: 13px;
+}
+table th {
+    font-size: 12px;
+    color: #b4b5b6;
+}
+table td {
+    font-size: 12px;
+}
+.text-blue {
+     color: #5fc2fa;
+}
+.text-gray {
+    color: #b4b5b6;
+}
+table td > div.detail-btn {
+    cursor: pointer;
+    color: #063047;
+    font-weight: bold;
+}
+table tr.selected {
+    background: rgba(0,0,0,.075);
+}
+table td > div.detail-btn.selected{
+    background: #fff;
+    border-bottom: 3px solid #063047;
+    padding: 3px;
+}
+div.data-container > div:nth-child(1), div.data-container > div:nth-child(2){
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+}

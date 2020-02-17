@@ -1,0 +1,14 @@
+div.noDescription-box {
+    background: #F5F5F5;
+    font-size: 10px;
+}
+div.noDescription-box > span {
+    color: #034b6f;
+}
+div.noDescription-box > span i {
+    font-size: 8px;
+}
+div.detail-line {
+    font-size: 10px;
+    color: #034b6f;
+}

@@ -1,0 +1,8 @@
+<div class="py-2">
+  <div class="noDescription-box border rounded p-2">No Description yet <span class="font-weight-bold mx-2"><i class="fas fa-plus"></i> Add Description</span></div>
+  <ng-container *ngIf="data">
+    <div *ngFor="let detail of data.list_item_details;" class="detail-line my-2">
+      {{detail}}
+    </div>
+  </ng-container>
+</div>
