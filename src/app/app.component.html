@@ -20,7 +20,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let elem of listData['data'] | search:searchInput; let i=index;" [ngClass]="{'selected':(selectedRowIndex==i)}">
+          <tr *ngFor="let elem of listData['data'] | search:searchInput:'list_item'; let i=index;" [ngClass]="{'selected':(selectedRowIndex==i)}">
             <td class="text-center">
               <img src="assets/images/pc_logo.png" height="15px" width="15px" *ngIf="elem.no_of_entities==0">
               <span *ngIf="elem.no_of_entities!=0" class="text-gray">{{elem.date | date:'MMM d'}}</span>
